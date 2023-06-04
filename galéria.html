@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csampy Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/csslogo.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./"><img class="img" src="img/csslogo.png" alt="Csampy Logo"></a>
+            <span class="title" >Csampy Studio </span> 
+            <img class="img_list" src="img/list.png" id="menu-btn" onclick="openMenu()" alt="Lista">
+        </nav>
+        <menu id="menu">
+            <button onclick="closeMenu()" id="close"><img class="img_list_close" src="img/list_close.png" alt=""></button>
+            <ul>
+                <a href="./">Főoldal</a>
+                <a href="./hírek">Hírek</a>
+                <a href="./karakterek">Csampy Állatok</a>
+                <a href="./nyelv">Nyelv</a>
+                <a href="./történet">Történet</a>
+                <a href="./felszerelés">Felszerelés</a>
+                <a href="./galéria">Galéria</a>
+                <a target="_blank" href="https://www.youtube.com/@csampystudio">YouTube</a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=vNAyqaFLECA&list=PLEdVSHHdBPb5LO2FVcPVx83oXP6EFVrKR">Csampy Krónikák</a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=Z2TTJ4Pf-z8&list=PLEdVSHHdBPb6Oan5pJMkb6W4y_yULspmi">Csampynyúl Csináldája</a>
+                <a href="./stáblista">Stáblista</a>
+            </ul>
+        </menu>
+    </header>
+    <div id="hatter_img">
+        <p class="tyuloly">Galéria</p>   
+    </div>
+    <hr class="hr">
+    <div class="szövegháttér" style="font-family:'Kanit', sans-serif; font-size: 25px; text-align: center; margin-left: 10px; margin-right: 10px; list-style-image:url(img/arrow.png); padding-top: 0%;">
+        <div class="col-s-12 col-md-6 col-lg-4">
+            <h2>Csampy lények</h2>
+            <li><a href="img/csampynyúl.jpg">Csampynyúl</a></li>
+            <li><a href="img/szekrénylepény.jpg">Szekrénylepény</a></li>
+            <li><a href="img/mpf.jpg">Majompofácán</a></li>
+            <li><a href="img/bb.jpg">Betonlábú Bitangmadár</a></li>
+            <li><a href="img/rezső.jpg">Rezső</a></li>
+            <li><a href="img/trezső.jpg">Trezső</a></li>
+            <li><a href="img/bumbu.jpg">Bumbu</a></li>
+            <li><a href="img/eb.jpg">Erdőbálna</a></li>
+            <li><a href="img/hülyecs.png">Hülyeség-csillag</a></li>
+        </div>
+        <hr class="hr1 p">
+    <div class="col-s-12 col-md-6 col-lg-4">
+            <h2>Gonosz Csampy lények</h2>
+            <li><a href="img/dr_mikro.jpg">Dr. Mikrokéz</a></li>
+            <li><a href="img/gkazoo.jpg">Gonosz Kazoo</a></li>
+            <li><a href="img/b_manók.jpg">Biringyómanók</a></li>
+            <li><a href="img/kazook.jpg">Kazoo katonák</a></li>
+    </div>        
+        <hr class="hr p">
+        <div class="col-s-12 col-md-6 col-lg-4"> 
+            <h2>Csampyverzum</h2>
+                <li><a href="img/naprendszer.jpg">Hülyeség Csillag-rendszer</a></li> 
+                <li><a href="img/bboylgó.jpg">Biringyó-bolgyó</a></li>
+                <li><a href="img/térkép.jpg">Csampybolygó térkép</a></li>
+                <li><a href="img/nagysziget.jpg">Nagy-sziget</a></li>     
+                <li><a href="img/vsziget.jpg">Vulkánsziget</a></li>        
+        </div>
+        <hr class="hr p">
+        <div class="col-s-12 col-md-6 col-lg-4">
+            <h2>Nyelv</h2>     
+                <li><a href="img/abc.png">ABC</a></li>        
+        </div>
+        <hr class="hr p">
+        <div class="col-s-12 col-md-6 col-lg-4">
+            <h2>Studio</h2>     
+                <li><a href="img/csnycs.jpg">Csampynyúl Csináldája díszlet</a></li>        
+                <li><a href="img/xyz.jpg">XYZ2023</a></li>
+                <li><a href="img/xyz_1.jpg">XYZ2023 közelről</a></li>
+        </div>
+        <hr class="hr p">
+        <div class="col-s-12 col-md-6 col-lg-4">
+            <h2>Egyéb képek</h2>     
+                <li><a href="img/erdobalna.png">3D Erdőbálna</a></li>        
+        </div>
+        <hr class="hr ">
+    </div>
+    <footer>
+        <a class="freemenu" href="Akadálymentes_menü.html"><img style="height: 30px; width: 40px;" src="img/menu_free.png" alt="Menü"></a>
+        <ol style="list-style-type: none; padding-left: 10px;">
+            <li>Véleményét, javaslatát írja meg e-mailben!</li>
+            <li>Kapcsolat: <a href="mailto:csampystudio@gmail.com">csampystudio@gmail.com</a></li>
+            <li>Veszprém 2023</li>
+        </ol>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csampy Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/csslogo.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./"><img class="img" src="img/csslogo.png" alt="Csampy Logo"></a>
+            <span class="title" >Csampy Studio </span> 
+            <img class="img_list" src="img/list.png" id="menu-btn" onclick="openMenu()" alt="Lista">
+        </nav>
+        <menu id="menu">
+            <button onclick="closeMenu()" id="close"><img class="img_list_close" src="img/list_close.png" alt=""></button>
+            <ul>
+                <a href="./">Főoldal</a>
+                <a href="./hírek">Hírek</a>
+                <a href="./karakterek">Csampy Állatok</a>
+                <a href="./nyelv">Nyelv</a>
+                <a href="./történet">Történet</a>
+                <a href="./felszerelés">Felszerelés</a>
+                <a href="./galéria">Galéria</a>
+                <a target="_blank" href="https://www.youtube.com/@csampystudio">YouTube</a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=vNAyqaFLECA&list=PLEdVSHHdBPb5LO2FVcPVx83oXP6EFVrKR">Csampy Krónikák</a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=Z2TTJ4Pf-z8&list=PLEdVSHHdBPb6Oan5pJMkb6W4y_yULspmi">Csampynyúl Csináldája</a>
+                <a href="./stáblista">Stáblista</a>
+            </ul>
+        </menu>
+    </header>
+    <div id="hatter">
+        <p class="tyuloly">Tyülöly!</p>   
+        <p class="yt"><a href="https://www.youtube.com/@csampystudio" target="_blank"><img class="yt_logo" src="img/yt.png" alt="YouTube" ></a></p>
+        <a href="./hírek"><p class="yt"><button class="news-btn">Tovább a hírekre ></button></p></a>
+    </div>
+    <hr class="hr"> <!--Csampy studio-->
+    <div class="szövegháttér">
+        <div class="col-s-12 col-md-6 col-lg-7">
+            <h2 class="kiscim t">Mi az a Csampy Studio?</h2>
+            <div class="text x">A Csampy Studio, egy 2021 januárjában alakult projekt, ahol <a href="./karakterek">csampy állatok</a> történetét dolgozzuk fel stop-motion animációs kisfilmek formájában. <br> Ezek két részre oszlanak: Csampy Krónikák, és Csampynyúl Csináldája.</div>
+        </div>
+        <div class="col-md-6 col-lg-5">
+            <div id="mainkep"></div>
+        </div>
+    <hr class="hr"> <!--CsK-->
+        <div class="col-md-6 col-lg-5">
+            <div id="mainkep_csk"></div>
+        </div>
+        <div class="col-s-12 col-md-6 col-lg-7">
+            <h2 class="kiscim t">Csampy Krónikák</h2>
+            <div class="text">A Csampy Krónikák a fő sorozat, jelenleg 4 részből áll, papírfigurás stop-motion technikával készítjük. Ebben a sorozatban ismerhetjük meg a különböző csampy állatokat, és az ellenségeiket.</div>
+        </div>
+    <hr class="hr"><!--CsnyCs-->
+        <div class="col-s-12 col-md-6 col-lg-7">
+            <h2 class="kiscim t">Csampynyúl Csináldája</h2>
+            <div class="text">A spinoff sorozat, gyurmafigurás stop-motion technikával, ebben tudhatunk meg érdekességeket a szereplőkről, és a Csampyverzum egyéb érdekességeiről.</div>
+        </div>
+        <div class="col-md-6 col-lg-5">
+            <div id="mainkep_csny"></div>
+        </div>
+        <hr class="hr">
+    </div>
+    <footer>
+        <a class="freemenu" href="Akadálymentes_menü.html"><img style="height: 30px; width: 40px;" src="img/menu_free.png" alt="Menü"></a>
+        <ol style="list-style-type: none; padding-left: 10px;">
+            <li>Véleményét, javaslatát írja meg e-mailben!</li>
+            <li>Kapcsolat: <a href="mailto:csampystudio@gmail.com">csampystudio@gmail.com</a></li>
+            <li>Veszprém 2023</li>
+        </ol>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
