@@ -722,6 +722,9 @@
         font-size: 18px;
         
     }
+    .desc{
+        height: 200px;
+    }
     .nev{
         font-family: 'Sriracha', cursive;
         font-size: 38px;
@@ -1144,6 +1147,8 @@
     .text{
         font-size: 22px;
     }
+    .desc{
+        height: 250px}
     #hatter{
         background-repeat: no-repeat;
         background-size: cover;
