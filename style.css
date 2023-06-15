@@ -584,6 +584,9 @@
         margin-right: 10px;
     
     }
+    .desc{
+        height: 120px;
+    }
     #hatter{
         background-image: url(img/csampynyúl.jpg);
         background-position: center;
