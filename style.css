@@ -57,8 +57,10 @@
         color: white;
         font-family: 'Kanit', sans-serif;
     }
-    nav{
+    header{
         position: fixed;
+    }
+    nav{
         display: flex;
         height: 40px;
         justify-content: space-between;
