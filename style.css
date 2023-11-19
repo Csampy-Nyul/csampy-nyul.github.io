@@ -57,8 +57,12 @@
         color: white;
         font-family: 'Kanit', sans-serif;
     }
+    main{
+        margin-top: 40px;
+    }
     header{
         position: fixed;
+        transform: translateY(-40px);
     }
     nav{
         display: flex;
