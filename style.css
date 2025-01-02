@@ -51,18 +51,14 @@
         background-color: #2186b1;
     }
     header,footer{
-        
         background-color: #5293af;
         width: 100%;
         color: white;
         font-family: 'Kanit', sans-serif;
     }
-    main{
-        margin-top: 40px;
-    }
     header{
-        position: fixed;
-        transform: translateY(-40px);
+        top: 0;
+        position: sticky;
     }
     nav{
         display: flex;
